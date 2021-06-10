@@ -1,0 +1,57 @@
+.landing{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.1;
+}
+.preText {
+    font-size: 1.5rem;
+    margin: 0px;
+    text-align: center;
+  }
+  .name {
+    font-size: 4rem;
+    font-weight: 800;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: -3px;
+    text-align: center;
+  }
+  .postText {
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+  }
+  .typewriter-effect {
+    font-size: 2rem;
+    font-weight: 800;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    text-align: center;
+}
+/* added on runtime */
+  .Typewriter {
+    display: inline;
+    color: #e21135;
+  }
+  
+
+.social-icons-tray{   
+    font-size: 2.5rem;
+    margin-top: 7rem;
+    text-align: center; 
+}
+.social-icon{
+  color: grey;  
+  padding: 15px;
+  transition: .6s;
+  /* did n't worked with display: block; */
+  display: inline-block;  
+}
+
+.social-icon:hover{
+  color: aliceblue;
+  transform: translate(0,-10px);
+ 
+}
