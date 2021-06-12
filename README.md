@@ -1,1 +1,1 @@
-added about me page
+added skills
