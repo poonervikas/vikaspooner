@@ -8,7 +8,7 @@ import { MdEmail } from "react-icons/md";
 
 export const PRETEXT = "Hi, I am";
 export const NAME = "Vikas Pooner";
-export const TYPEWRITER = ["Frontend Developer", "Backend Developer", "FullStack Development Enthusiast", "Cricket Lover"]
+export const TYPEWRITER = ["Frontend Developer", "Backend Developer", "FullStack Enthusiast", "Cricket Lover"]
 export const POSTTEXT = "I design and code beautifully simple things, and I love what I do."
 
 export const LINKEDIN_URL = "https://www.linkedin.com/in/vikas-pooner-45974a181";

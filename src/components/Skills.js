@@ -6,24 +6,19 @@ import Skill from './Skill';
 const Skills = () => {
     return (
         <div>
-            <h1 className="main-heading">My Tech Stack...</h1>
+            <h1 className="main-heading">My Tech Stack</h1>
+            <div className="container">
+            <div className="skills row">
 
-            <div className="skills">
-
-                {
-                    SKILLS.map(skillData => (
-                        <Skill data={skillData} key={skillData.heading} />
-                    ))
-                }
-
-                {/* <div className="skills-container">
-                front end
-           </div>
-           <div className="skills-container">
-                backend
-           </div> */}
-            </div>
+            {
+                SKILLS.map(skillData => (
+                    <Skill data={skillData} key={skillData.heading} />
+                ))
+            }
         </div>
+               
+            </div >
+        </div >
     )
 }
 
