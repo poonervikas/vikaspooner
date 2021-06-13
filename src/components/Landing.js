@@ -3,11 +3,13 @@ import { PRETEXT, NAME, POSTTEXT, TYPEWRITER } from '../information/Landing';
 import '../styles/landing.css';
 import Typewriter from 'typewriter-effect';
 import SocialIcons from './SocialIcons';
+import Skills from './Skills';
 
 
 
 const Landing = () => {
     return (
+        <React.Fragment>
         <div className="landing">
 
             <div>
@@ -36,6 +38,8 @@ const Landing = () => {
                 </div>
             </div>
         </div>
+        <Skills/>
+        </React.Fragment>
     )
 }
 

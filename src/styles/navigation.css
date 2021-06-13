@@ -1,0 +1,16 @@
+.navigation-tray{
+    position: fixed;
+    top:10px;
+    right: 10px;
+}
+.nav-link{
+color: grey;
+display: inline;
+font-weight: bold;
+}
+.nav-link:hover{
+    color: whitesmoke;
+}
+.nav-link:hover,:focus{
+    color: whitesmoke;
+}

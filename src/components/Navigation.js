@@ -1,13 +1,17 @@
 import React from 'react';
 import {navigationData} from '../information/Navigation';
+import { Link } from 'react-router-dom';
+import '../styles/navigation.css';
+
 
 
 const Navigation = () => {
     return (
-        <div>
+        <div className="navigation-tray">
             {navigationData.map(navObj=>(
-                <p>{navObj.navItemName}</p>
+                <Link className="nav-link" to={navObj.route}>{navObj.navItemName}</Link>
             ))}
+            
         </div>
     )
 }
