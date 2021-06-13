@@ -9,7 +9,7 @@ import {BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 function App() {
   return (
     <div className="dark-theme">
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Navigation />
         <Switch>
 
