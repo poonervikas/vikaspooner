@@ -9,7 +9,7 @@ const Navigation = () => {
     return (
         <div className="navigation-tray">
             {navigationData.map(navObj=>(
-                <Link className="nav-link" to={navObj.route}>{navObj.navItemName}</Link>
+                <Link className="nav-link" key={navObj.navItemName} to={navObj.route}>{navObj.navItemName}</Link>
             ))}
             
         </div>
