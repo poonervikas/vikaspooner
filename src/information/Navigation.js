@@ -6,9 +6,10 @@ export const navigationData=[
     {
         navItemName:"About",
         route:"/about"
-    },
-    {
-        navItemName:"Contact",
-        route:"/contact"
     }
+    // ,
+    // {
+    //     navItemName:"Contact",
+    //     route:"/contact"
+    // }
 ]

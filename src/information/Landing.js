@@ -15,7 +15,7 @@ export const LINKEDIN_URL = "https://www.linkedin.com/in/vikas-pooner-45974a181"
 export const GITHUB_URL = "https://github.com/poonervikas";
 export const TWITTER_URL = "https://twitter.com/@VikasPooner1";
 export const INSTAGRAM_URL = "https://instagram.com/pooner_vikas";
-export const EMAIL_URL = "poonervikas98@gmail.com";
+export const EMAIL_URL = "https://mail.google.com/mail/u/0/?fs=1&to=poonervikas98@gmail.com&tf=cm#";
 
 export const SOCIAL_ICONS_DATA = [
     {
