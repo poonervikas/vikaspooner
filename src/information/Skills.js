@@ -25,6 +25,6 @@ export const SKILLS=[
         heading:"Tools",
         text:"I use different tools day in and day out to pace up the process of development ",
         preskillsText:"Tools i have worked with:",
-        skills:["Git","Wavemaker(LCD)","Bitbucket","Postman","Grunt"]
+        skills:["Git","Wavemaker(LCD)","Bitbucket","Postman","Grunt","JIRA","BitBucket"]
     }
 ]

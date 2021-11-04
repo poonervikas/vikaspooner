@@ -18,13 +18,9 @@ align-items: center;
    text-align: center;
 }
 
-/* .skill-container{
-    padding: 3rem;
-    min-height: 90vh;
-    display: inline;
-    border: 1px solid rgb(122, 110, 110);
-    background-color: gray;
-} */
+.skill-container{
+    font-family: 'Open Sans', sans-serif;
+} 
 
 .skill-card{
     /* min-height: 80vh; */
@@ -32,6 +28,7 @@ align-items: center;
 }
 .heading{
     text-align: center;
+    font-weight: bold;
     margin: 20px 0px 20px 0px;
 }
 .text{
@@ -42,12 +39,13 @@ align-items: center;
     text-align: center;
     background-color: #100e0e;
     min-height: 100%;
-    /* border-radius: 10px; */
     padding: 1rem 1rem;
+    font-weight: bold;
 }
 
 .skill-card-content>li{
     list-style: none;
+    font-weight: 400;
    
 }
 
