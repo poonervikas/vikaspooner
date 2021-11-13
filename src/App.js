@@ -5,6 +5,8 @@ import About from './components/About';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import Navigation from './components/Navigation';
 import {BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Journey from './components/Journey';
+import Blogs from './components/Blogs';
 
 function App() {
   return (
@@ -15,7 +17,8 @@ function App() {
 
           <Route exact path="/" component={Landing} />
           <Route path="/about" component={About} />
-
+          <Route path="/timeline" component={Journey} />
+          <Route path="/blog" component={Blogs} />
         </Switch>
 
       </Router>

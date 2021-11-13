@@ -6,10 +6,14 @@ export const navigationData=[
     {
         navItemName:"About",
         route:"/about"
+    },
+    {
+        navItemName:"Timeline",
+        route:"/timeline"
     }
-    // ,
-    // {
-    //     navItemName:"Contact",
-    //     route:"/contact"
-    // }
+    ,
+    {
+        navItemName:"Blog",
+        route:"/blog"
+    }
 ]

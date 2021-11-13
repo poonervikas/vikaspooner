@@ -1,7 +1,12 @@
 .navigation-tray{
+    width: 100%;
+    text-align: right;
+    padding: 15px 10px;
+    background-color: black;
+    z-index: 100;
     position: fixed;
-    top:10px;
-    right: 10px;
+    top:0px;
+    /* right: 10px; */
 }
 .nav-link{
 color: grey;
@@ -14,3 +19,8 @@ font-weight: bold;
 .nav-link:hover,:focus{
     color: whitesmoke;
 }
+@media screen and (max-width: 768px) {
+    .navigation-tray{
+        text-align: center;
+    }
+  }

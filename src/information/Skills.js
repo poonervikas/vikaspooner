@@ -16,7 +16,7 @@ export const SKILLS=[
     {
         icon:backend_icon,
         heading:"Backend",
-        text:"I love creating API's that can be exposed and utilized well in the frontend.",
+        text:"I love backend development as much as i love the frontend.",
         preskillsText:"Things i have worked with:",
         skills:["Java","SpringBoot","NodeJs","Express","MySql","MongoDB"]
     },
