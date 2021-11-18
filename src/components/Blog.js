@@ -3,7 +3,6 @@ import '../styles/blog.css'
 import Tag from './Tag';
 
 const Blog = (props) => {
-    console.log(props.data.title)
     return (
         <div>
             <a href={props.data.link} target="_blank" className="blog-title">{props.data.title}</a>
@@ -11,7 +10,7 @@ const Blog = (props) => {
             <p className="blog-date">{props.data.date +' | '+ props.data.readTime +' read'}</p>
             <div className="tags-container">
                 {props.data.tags.map(tag=>(
-                    <Tag data={tag} />
+                    <Tag data={tag} key={tag} />
                 ))}
             </div>
             <hr></hr>

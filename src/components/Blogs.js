@@ -5,12 +5,11 @@ import '../styles/blog.css';
 
 
 const Blogs = () => {
-    console.log(BLOGSDATA)
     return (
         <div className="blogs-container ">
         <div className="blog-container">
             {BLOGSDATA.map(blog => (
-                <Blog data={blog} />
+                <Blog data={blog} key={blog.link} />
             ))}
 
         </div>

@@ -18,8 +18,7 @@ const About = () => {
                     start={1}
                     end={23}
                     duration="2"
-                /> years old software engineer based in India. I started my career in IT Industry with a
-                 Tech Giant and currently I am working as a Full Stack Developer and exploring Low Code Development in a FORTUNE 200 Fintech Company. When i am not developing, you can find me playing or watching cricket...</p>
+                /> years old Software Engineer based in India. Currently I am working as a Full Stack Developer and exploring Low Code Development in a FORTUNE 200 Fintech Company. When i am not developing, you can find me playing or watching cricket...</p>
             <hr className="separator-line" /><br />
             <h2 className="about-quote">{'< '}Living, Learning & Leveling up one day at a time{' />'}</h2>
 

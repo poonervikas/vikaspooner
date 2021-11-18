@@ -4,9 +4,6 @@ import '../styles/landing.css';
 import Typewriter from 'typewriter-effect';
 import SocialIcons from './SocialIcons';
 import Skills from './Skills';
-import Journey from './Journey';
-
-
 
 const Landing = () => {
     return (

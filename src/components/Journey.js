@@ -9,7 +9,7 @@ const Journey = () => {
         <div className="timeline">
             {
                 TIMELINE.map((timelineData,i)=>(
-                    <Timeline data={timelineData} position={i+1}  />
+                    <Timeline data={timelineData} position={i+1} key={i}  />
                 ))
             }
         </div>

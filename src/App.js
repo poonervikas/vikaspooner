@@ -11,7 +11,7 @@ import Blogs from './components/Blogs';
 function App() {
   return (
     <div className="dark-theme">
-      <Router basename={process.env.PUBLIC_URL}>
+      <Router >
         <Navigation />
         <Switch>
 

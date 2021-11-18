@@ -16,7 +16,11 @@ font-weight: bold;
 .nav-link:hover{
     color: whitesmoke;
 }
-.nav-link:hover,:focus{
+.nav-link:active{
+    color: whitesmoke;
+}
+
+.nav-link:focus{
     color: whitesmoke;
 }
 @media screen and (max-width: 768px) {
