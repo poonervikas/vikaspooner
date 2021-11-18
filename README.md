@@ -1,1 +1,1 @@
- To do: Email Skills About Page Switch Theme Responsive Deploy
+To deploy main branch: npm run deploy
