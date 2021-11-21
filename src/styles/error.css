@@ -1,5 +1,5 @@
 .error-container{
-    height: 100vh;
+    min-height: 100vh;
     padding: 100px 0px;
     display: flex;
     flex-wrap: wrap;
@@ -11,7 +11,7 @@
 .error404{
     font-size: 3rem;
     font-weight: 700;
-    font-family: cursive;
+    font-family: monospace;
     
 }
 .error-text{

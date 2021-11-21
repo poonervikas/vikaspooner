@@ -24,7 +24,7 @@ align-items: center;
 
 .skill-card{
     /* min-height: 80vh; */
-    padding: 1rem 3rem;
+    padding: 1rem 1rem;
 }
 .heading{
     text-align: center;
