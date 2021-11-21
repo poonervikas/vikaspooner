@@ -1,0 +1,34 @@
+.error-container{
+    height: 100vh;
+    padding: 100px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    color: #6a6466;
+}
+.error404{
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: cursive;
+    
+}
+.error-text{
+    font-family: monospace;
+    color: whitesmoke;
+}
+.btn-go{
+    margin-top: 20px;
+    border-radius: 50px;
+    padding: 8px 20px;
+    color: whitesmoke;
+    border: 2px solid white;
+    background-color: black;
+    font-family: monospace;
+}
+.btn-go:hover{
+    color: black;
+    background-color: white;
+
+}

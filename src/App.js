@@ -7,6 +7,7 @@ import Navigation from './components/Navigation';
 import {BrowserRouter as Router, Switch, Route,HashRouter } from 'react-router-dom';
 import Journey from './components/Journey';
 import Blogs from './components/Blogs';
+import Error from './components/Error';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route exact path="/about" component={About} />
           <Route exact path="/timeline" component={Journey} />
           <Route exact path="/blog" component={Blogs} />
+          <Route  path="*" component={Error} />
         </Switch>
 
       </HashRouter>
